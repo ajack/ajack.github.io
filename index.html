@@ -16,11 +16,13 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Slab" rel="stylesheet">  
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -35,15 +37,95 @@
   <div class="container">
     
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h2>ajack's Blog</h2>
-        <p>This my a blog. Welcome.</p>
+      <div class="one-half column" style="margin-top: 0%">        
+        <section class="header">
+          <h2>ajack's Blog</h2>
+        </section>        
       </div>
     </div>
     
+    
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">                    
+          <li class="navbar-item"> <a class="navbar-link" href="#Posts">Posts</a> </li>
+          <li class="navbar-item"> <a class="navbar-link" href="#Projects">Projects</a> </li>
+          <li class="navbar-item"> <a class="navbar-link" href="#Personal">Personal</a> </li>
+          <li class="navbar-item"> <a class="navbar-link" href="#About">About</a> </li>
+          <li class="navbar-item"> <a class="navbar-link" href="#Misc">Misc.</a> </li>                    
+        </ul>
+      </div>
+    </nav>
+    
+    
+    <div style="text-align: center">        
+      <img src="images/yolo2.jpg" alt="YAYA" style="object-fit: contain; height: 100%; width: 100%">
+    </div>
+    <br>      
+    <div class="posts" id="grid" style="margin-left:2rem">
+      <div class="row">
+        <div class="seven columns">
+          <h4 class="ptitle"> Hello, World! </h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim
+          id est laborum.
+        </div>      
+        <div class="five columns"></div>
+      </div>
+      
+      <div class="row">
+        <div class="seven columns">
+          <h4 class="ptitle">Busy Beaver - Wikipedia</h4>
+          &emsp;
+          The busy beaver function quantifies the maximum score
+          attainable by a Busy Beaver on a given measure. This is a
+          noncomputable function. Also, a busy beaver function can be
+          shown to grow faster asymptotically than does any computable
+          function.
+          <br> &emsp;
+          The busy beaver function, Σ: N → N, is defined such that
+          Σ(n) is the maximum attainable score (the maximum number of
+          1s finally on the tape) among all halting 2-symbol n-state
+          Turing machines of the above-described type, when started on
+          a blank tape.          
+          <br> &emsp;
+          It is clear that Σ is a well-defined function: for every n,
+          there are at most finitely many n-state Turing machines as
+          above, up to isomorphism, hence at most finitely many
+          possible running times.
+          <br> &emsp;
+          This infinite sequence Σ is the busy beaver function, and
+          any n-state 2-symbol Turing machine M for which σ(M) = Σ(n)
+          (i.e., which attains the maximum score) is called a busy
+          beaver. Note that for each n, there exist at least four
+          n-state busy beavers (because, given any n-state busy
+          beaver, another is obtained by merely changing the shift
+          direction in a halting transition, another by shifting all
+          direction changes to their opposite (with neutrals kept
+          neutral), and the final by shifting the halt direction of
+          the all-swapped busy beaver).          
+        </div>      
+        <div class="five columns">
+          <br><br><br><br>
+          <i>  &emsp;
+            This is a sidenote. Note: write a script to generate formatted
+            sidenotes. Right now it's really clunky because you don't have
+            much fine-grain control over where you can put these notes.
+          </i>
+        </div>
+        
+      </div>
+    
   </div>
+</div>
 
 <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
